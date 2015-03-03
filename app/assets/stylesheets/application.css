@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ .bus-map {
+ 	width: 250px;
+ 	height: 250px;
+ }

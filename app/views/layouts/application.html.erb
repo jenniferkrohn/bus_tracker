@@ -4,7 +4,10 @@
   <title>MartaNearMe</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?keys=<%= ENV['google_api_key'] %>"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquiry/1.11.1/jquery.min.js"></script>
+	  <%= csrf_meta_tags %>
 </head>
 <body>
 
